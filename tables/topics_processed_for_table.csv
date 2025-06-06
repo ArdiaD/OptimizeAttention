@@ -1,0 +1,45 @@
+"Investments, Hedge Funds, and Corporate Earnings",21.0675,
+h=0,15.27,"hedge fund, investor, portfolio, manager, yield, trading"
+h=1,17.96,"hedge fund, shareholder, pension, equity, stake, trader"
+h=3,16.34,"investment bank, merger, brokerage, IPO, equity, banker"
+h=6,18.26,"stock index, rally, strategist, valuation, volume, bull"
+h=6,16.44,"hedge fund, asset, strategy, client, capital, management"
+"Bonds, Interest Rates, and Monetary Policy",15.775,
+h=0,15.04,"inflation, Federal Reserve, euro, economy, policy, rate"
+h=1,17.27,"Federal Reserve, yield, treasury, bond, liquidity, banks"
+h=3,14.51,"yield, bond market, benchmark, rate increase, investor, currency"
+h=6,16.28,"treasury, debt, bond, interbank, credit, liquidity"
+"Banking, Mortgages, and the Financial Crisis",11.7025,
+h=0,16.59,"bank, loan, mortgage, borrower, regulator, liquidity"
+h=1,9.91,"housing, property, financing, insurer, debt, credit"
+h=3,11.92,"banks, bailout, financial crisis, rescue, capital, risk"
+h=3,8.39,"mortgage, foreclosure, bankruptcy, household, default, portfolio"
+"Politics, Legislation, Law Enforcement, and Regulation",13.97,
+h=0,10.74,"democrats, republicans, senate, election, congress, legislation"
+h=1,10.2,"vote, tax, bill, committee, lobbyist, campaign"
+h=1,6.46,"FBI, prosecutor, lawsuit, justice, court, fraud"
+h=3,8.95,"prime minister, parliament, deficit, sanction, reform, governor"
+h=3,7.62,"court, lawyer, investigation, prosecutor, SEC, probe"
+h=6,11.91,"SEC, insider, compliance, settlement, disclosure, regulator"
+"Oil, Energy, and Geopolitics",7.83,
+h=0,7.1,"oil, crude, barrel, gas, refinery, utility"
+h=1,10.5,"export, energy, production, recession, output, fuel"
+h=3,6.89,"commodity, infrastructure, electricity, carbon, fuel, factory"
+h=6,6.83,"oil price, emission, producer, metal, carbon, export"
+"Lifestyle, Family, Education, and Culture",9.6675,
+h=0,12.04,"film, actor, father, daughter, love, writer"
+h=1,6.9,"student, school, teacher, parent, university, science"
+h=3,6.18,"apartment, rent, family, career, town, graduate"
+h=6,13.55,"music, TV, media, magazine, sport, entertainment"
+"Consumer Goods, Real Estate, and Consumer Finances",7.48,
+h=0,9.44,"property, retailer, construction, consumer, payment, restaurant"
+h=1,3.46,"broker, transaction, compliance, regulator, account, sanction"
+h=3,7.91,"credit card, fee, merchant, issuer, purchase, reward"
+h=6,9.11,"brand, apparel, manufacturer, luxury, shopper, product"
+Other,12.51,
+h=0 (Business & M&A),13.79,"CEO, acquisition, merger, IPO, shareholder, venture"
+h=1 (Tech & Media),8.64,"app, software, internet, device, video, advertising"
+h=1 (Military & Conflict),8.7,"soldier, army, weapon, attack, rebel, war"
+h=3 (Travel & Airlines),4.08,"airline, flight, passenger, airport, ticket, travel"
+h=3 (Online Commerce & Media),7.22,"web, e-commerce, content, music, tech, app"
+h=6 (Health & MedicinE),7.61,"cancer, doctor, hospital, vaccine, drug, study"
