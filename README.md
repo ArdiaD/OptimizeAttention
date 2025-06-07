@@ -14,8 +14,8 @@ in the replication repository.
 
 ## Data Availability and Provenance Statements
 
-All datasets used in this project are proprietary and cannot be shared publicly due to licensing restrictions. 
-Access to the original data is granted exclusively to the Editor of the _International Journal of Forecasting_ for review purposes. 
+Textual data used in this project are proprietary and cannot be shared publicly due to licensing restrictions. 
+Access to these data is granted exclusively to the Editor of the _International Journal of Forecasting_ for review purposes. 
 For all other users, we provide pseudo-data.
 
 ## Computational Requirements
