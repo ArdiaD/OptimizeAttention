@@ -6,8 +6,8 @@ This README file provides information about the replication repository (computer
 
 ## Contact Information
 
-- David Ardia – [david.ardia@hec.ca](mailto:david.ardia@hec.ca), GERAD & HEC Montréal, Canada  
-- Keven Bluteau – [keven.bluteau@usherbrooke.ca](mailto:keven.bluteau@usherbrooke.ca), University of Sherbrooke, Canada
+- David Ardia – GERAD & HEC Montréal, Canada  
+- Keven Bluteau – University of Sherbrooke, Canada
 
 ## Data Availability and Provenance Statements
 
@@ -73,6 +73,11 @@ The version `optimize_attention.pdf` contains updated results generated from thi
 - Random seeds were not properly set in the earlier version.
 
 These issues have been corrected. All conclusions of the study remain unchanged. We apologize for any inconvenience and are committed to transparency and replicability.
+
+## References
+
+Ardia, D., & Bluteau, K. (2025). *Optimal Text-Based Time-Series Indices*. International Journal of Forecasting (conditionally accepted).  
+Available at SSRN: [https://dx.doi.org/10.2139/ssrn.4830848](https://dx.doi.org/10.2139/ssrn.4830848)
 
 ## Acknowledgements
 
