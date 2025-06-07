@@ -2,7 +2,10 @@
 
 ## Overview
 
-This README file provides information about the replication repository (computer code and data) used to generate the results presented in Ardia & Bluteau (2025), **Optimal Text-Based Time-Series Indices**, *conditionally accepted at the International Journal of Forecasting*. The latest version of the paper `optimize_attention.pdf` is available in the replication repository.
+This README file provides information about the replication repository (computer code and data) used to generate the 
+results presented in Ardia & Bluteau (2025), **Optimal Text-Based Time-Series Indices**, conditionally accepted 
+at the _International Journal of Forecasting_. The latest version of the paper `optimize_attention.pdf` is available 
+in the replication repository.
 
 ## Contact Information
 
@@ -11,28 +14,33 @@ This README file provides information about the replication repository (computer
 
 ## Data Availability and Provenance Statements
 
-All datasets are proprietary. We do not have the rights to share the data publicly. The data are provided to the *International Journal of Forecasting* Editor only. We provide pseudo-data for other users upon request. Please destroy the data after completing the replication exercise.
+All datasets used in this project are proprietary and cannot be shared publicly due to licensing restrictions. 
+Access to the original data is granted exclusively to the Editor of the _International Journal of Forecasting_ for review purposes. 
+For all other users, we provide pseudo-data.
 
 ## Computational Requirements
 
-The computations are very demanding. On a modern computer, it takes about one day to generate an illustrative setup and several days to produce the complete set of results.
+The computations are very demanding. On a modern computer, it takes about one day to generate an illustrative setup and several 
+days to produce the complete set of results.
 
-You must use a **Windows machine** with **R version 4.2.3**, **RStudio**, **Rtools**, and at least **64 GB of RAM**. Compatibility with this specific R version is critical; we recommend using [rig](https://github.com/r-lib/rig/releases) to manage R versions.
+You must use a **Windows machine** with **R version 4.2.3**, **RStudio**, **Rtools**, and at least **64 GB of RAM**. 
+Compatibility with this specific R version is critical; we recommend using [rig](https://github.com/r-lib/rig/releases) to manage R versions.
 
-We use the R package `renv` to install the exact versions of the packages used. If installation with `renv` fails, you can run `99_run_install_packages.R` to install dependencies manually.
+We use the R package `renv` to install the exact versions of the packages used. If installation with `renv` fails, you 
+can run `99_run_install_packages.R` to install dependencies manually.
 
 See the file `session_info.txt` in the repository for the full session details that generated the results.
 
 ## Instructions to Replicators
 
-1. Download and unzip the ZIP file from the provided Dropbox link.
+1. Clone the repository to your computer.
 2. Open the R project `optimize_attention.Rproj`.
 3. Run:
    ```r
    renv::restore()
    ```
    and confirm with “y”.
-4. If needed, install any failed packages using their specific versions from CRAN archives as per `session_info.txt`.
+4. If needed, install any failed packages using their specific versions from CRAN archives as per `session_info.txt`; see `99_run_install_packages.R` below.
 5. Run `00_run_all.R` to generate all results, or run individual scripts as described below.
 
 ## Description of Programs/Code
@@ -62,7 +70,8 @@ See the file `session_info.txt` in the repository for the full session details t
 
 The `data/` folder includes several precomputed `.rda` files:
 
-- `dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda`: Final optimized DFM. It has undergone token resolution, unigram filtering, vocabulary refinement, sentiment enrichment, and acronym correction.
+- `dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda`: Original DFM that is granted exclusively to the Editor of the _International Journal of Forecasting_ for review purposes. **This dataset is not available in the public repository**.
+- `dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym_pseudo.rda`: Pseudo-data DFM, available in the public repository.
 - `wv_keywords_fintext.rda`: Pretrained FinText word vectors filtered to include only the keywords used in this project.
 - `T5YIEM.csv`: [5-Year Breakeven Inflation Rate](https://fred.stlouisfed.org/series/T5YIEM) — downloaded from the Federal Reserve Economic Data (FRED).
 - `CPILFESL.csv`: [Core CPI for Urban Consumers (Excluding Food and Energy)](https://fred.stlouisfed.org/series/CPILFESL) — also from FRED.
@@ -71,15 +80,6 @@ The `data/` folder includes several precomputed `.rda` files:
 
 - `renv.lock` – Used by `renv` to reproduce the R environment
 - `session_info.txt` – Records full session details of the system used
-
-## Comments on the Replication
-
-The version `optimize_attention.pdf` contains updated results generated from this replication repository. Note:
-
-- Earlier results used incorrect lag in the nowcasting experiment.
-- Random seeds were not properly set in the earlier version.
-
-These issues have been corrected. All conclusions of the study remain unchanged. We apologize for any inconvenience and are committed to transparency and replicability.
 
 ## References
 
