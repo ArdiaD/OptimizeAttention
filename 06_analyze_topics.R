@@ -96,7 +96,8 @@ dev.off()
 
 source(file = "functions/compute_attention_measure.R")
 
-load(file = "data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda")
+load(file = "data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda") # for IJF Editor only
+#load(file = "data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym_pseudo.rda") # for other users
 
 #remove duplicate form old and new data
 dat = dat[-which(unlist(lapply(stringr::str_split(dat@docvars$docname_,"_"), function(x) x[2])) == "WSJ" & dat@docvars$date >= as.Date("2021-08-01")),]

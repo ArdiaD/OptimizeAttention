@@ -6,7 +6,6 @@ sessionInfo()
 # Simple setup; generate some results with 1 day of computations
 rm(list = ls())
 source("01_replicate_epu.R")
-rm(list = ls())
 source("02_plot_epu.R")
 rm(list = ls())
 source("03_forecast_inflation.R")

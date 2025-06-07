@@ -1,6 +1,7 @@
 rm(list = ls())
-require("ggplot2")
-load("data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda")
+library("ggplot2")
+load(file = "data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym.rda") # for IJF Editor only
+#load(file = "data/dfm_filtered_resolved_unigram_ManualvocFilt_sentiment_accronym_pseudo.rda") # for other users
 
 sentiment = dat@docvars$sentiment
 bw = 2
