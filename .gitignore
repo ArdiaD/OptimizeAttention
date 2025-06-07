@@ -26,3 +26,6 @@ renv/staging/
 *.out
 *.toc
 *.tmp
+
+# Mac
+.DS_Store
