@@ -8,25 +8,14 @@
 # User-specific files
 .Ruserdata
 
-# RStudio files
-.Rproj.user/
-
 # renv local library
 renv/library/
 renv/staging/
 
 # Cache and temporary files
 .Rcheck/
-*.Rproj
-*.Rproj.user
 .Renviron
 .Rprofile
-
-# Output folders
-/outputs/
-/figures/
-/tables/
-/output/
 
 # Logs and temp files
 *.log
