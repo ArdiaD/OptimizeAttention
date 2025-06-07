@@ -8,6 +8,9 @@
 # User-specific files
 .Ruserdata
 
+# RStudio files
+.Rproj.user/
+
 # renv local library
 renv/library/
 renv/staging/
