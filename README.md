@@ -9,7 +9,7 @@ in the replication repository.
 
 ## Contact Information
 
-- David Ardia – GERAD & HEC Montréal, Canada  
+- David Ardia – CIRANO & GERAD & HEC Montréal, Canada  
 - Keven Bluteau – University of Sherbrooke, Canada
 
 ## Data Availability and Provenance Statements
@@ -83,7 +83,7 @@ The `data/` folder includes several precomputed `.rda` files:
 
 ## References
 
-Ardia, D., & Bluteau, K. (2025). *Optimal Text-Based Time-Series Indices*. International Journal of Forecasting (conditionally accepted).  
+Ardia, D., & Bluteau, K. (2025). Optimal Text-Based Time-Series Indices, _International Journal of Forecasting_ (conditionally accepted).  
 Available at SSRN: [https://dx.doi.org/10.2139/ssrn.4830848](https://dx.doi.org/10.2139/ssrn.4830848)
 
 ## Acknowledgements
