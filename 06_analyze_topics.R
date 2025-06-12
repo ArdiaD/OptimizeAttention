@@ -91,7 +91,7 @@ pdf("figures/forecast_selection.pdf",
     height = 12,
     width = 8,
     paper = "special")
-plot_grid(p1, p2, p3, rel_heights = c(2,2,2), ncol = 1,align="v")
+print(plot_grid(p1, p2, p3, rel_heights = c(2,2,2), ncol = 1,align="v"))
 dev.off()
 
 source(file = "functions/compute_attention_measure.R")
