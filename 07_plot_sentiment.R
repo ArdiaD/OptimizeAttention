@@ -15,5 +15,5 @@ pdf("figures/sentiment.pdf",
     height = 6,
     width = 8,
     paper = "special")
-g
+print(g)
 dev.off()

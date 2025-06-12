@@ -127,7 +127,7 @@ pdf("figures/EPU_selection.pdf",
     width = 8,
     paper = "special")
 
-plot_grid(p5,p4,p2,p1,p3, rel_heights = c(1.5,1.5,1.5,4,1), ncol = 1, align="hv")
+print(plot_grid(p5,p4,p2,p1,p3, rel_heights = c(1.5,1.5,1.5,4,1), ncol = 1, align="hv"))
 dev.off()
 
 
